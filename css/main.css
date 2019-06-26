@@ -3,7 +3,7 @@ body {
   color: #fff; }
 
 .analysis {
-  background-image: url(../img/bg_analysis.png);
+  background-image: url(/img/bg_analysis.png);
   background-repeat: no-repeat;
   padding: 40px 0 100px 0;
   background-position: center;
