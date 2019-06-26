@@ -1,0 +1,95 @@
+body {
+  font-size: 20px;
+  color: #fff; }
+
+.analysis {
+  background-image: url(../img/bg_analysis.png);
+  background-repeat: no-repeat;
+  padding: 40px 0 100px 0;
+  background-position: center;
+  background-size: cover; }
+
+.wrapper {
+  max-width: 1150px;
+  margin: 0 auto; }
+
+.analysis-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.outer-wrapper {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+ul {
+  list-style-type: none; }
+  ul li.analysis-li {
+    margin-bottom: 54px;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer; }
+    ul li.analysis-li.check::before {
+      background-size: 30px; }
+    ul li.analysis-li:hover::before {
+      border-color: #c29846;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+    ul li.analysis-li::before {
+      position: absolute;
+      content: '';
+      width: 34px;
+      height: 34px;
+      left: -34px;
+      bottom: 3px;
+      border: #d3ad4b solid 3px;
+      background-color: transparent;
+      cursor: pointer;
+      background-image: url(../img/check.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 0; }
+    .list {
+      height: 35px; }
+
+h2, p {
+  margin: 0; }
+
+.analysis-test {
+  -webkit-flex-basis: 71%;
+      -ms-flex-preferred-size: 71%;
+          flex-basis: 71%; }
+  .analysis-test p {
+    margin-bottom: 105px; }
+  .analysis-test h2, .analysis-test p {
+    color: #f2c93b;
+    font-size: 30px; }
+
+.analysis-test {
+  -webkit-flex-basis: 71%;
+      -ms-flex-preferred-size: 71%;
+          flex-basis: 71%; }
+
+.analysis-number {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.thermometr {
+  width: 101px;
+  height: 100%;
+  -webkit-align-self: end;
+      -ms-flex-item-align: end;
+          align-self: end; }
